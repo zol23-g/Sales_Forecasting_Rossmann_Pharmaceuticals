@@ -1,0 +1,43 @@
+2024-09-19 20:40:14,909 - INFO - Datasets loaded successfully.
+2024-09-19 20:40:15,364 - INFO - Datasets loaded successfully.
+2024-09-19 20:40:15,364 - INFO - Datasets loaded successfully.
+2024-09-19 20:40:15,784 - INFO - Checking the distribution of promotions in training and test sets...
+2024-09-19 20:40:22,623 - INFO - Distribution of promotions visualized.
+2024-09-19 20:40:22,635 - INFO - Analyzing sales behavior around holidays...
+2024-09-19 20:40:24,415 - INFO - Sales behavior around holidays visualized.
+2024-09-19 20:40:24,480 - INFO - Exploring seasonal purchasing behavior (e.g., Christmas)...
+2024-09-19 20:40:25,473 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:26,190 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:26,906 - INFO - Seasonal purchasing behavior visualized.
+2024-09-19 20:40:26,923 - INFO - Analyzing the correlation between sales and number of customers...
+2024-09-19 20:40:27,123 - INFO - Correlation matrix between sales and customers:               Sales  Customers
+Sales      1.000000   0.894711
+Customers  0.894711   1.000000
+2024-09-19 20:40:29,892 - INFO - Analyzing the effect of promotions on sales and customers...
+2024-09-19 20:40:30,590 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:31,439 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:33,151 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:33,940 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:34,523 - INFO - Effect of promotions on sales and customer behavior visualized.
+2024-09-19 20:40:35,557 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:40:36,357 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:41:02,473 - INFO - Analyzing the effect of promos across different stores...
+2024-09-19 20:41:02,573 - INFO - Displaying top 10 stores with the highest sales increase due to promos:
+2024-09-19 20:41:02,573 - INFO - Promo                0             1  Sales_Increase
+StoreType                                           
+a          4300.418175   8068.080939       87.611544
+d          4326.661817   7776.593414       79.736567
+c          4435.040156   7810.174738       76.101556
+b          9409.434791  11109.739497       18.070211
+2024-09-19 20:41:02,608 - INFO - Visualizing sales increase due to promos across different stores...
+2024-09-19 20:41:02,873 - INFO - Sales increase visualization completed.
+2024-09-19 20:41:02,895 - INFO - Analyzing customer trends during store opening and closing times...
+2024-09-19 20:41:03,775 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:41:04,573 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:41:05,206 - INFO - Customer trends during store opening times visualized.
+2024-09-19 20:41:05,209 - INFO - Checking which stores are open on all weekdays...
+2024-09-19 20:41:05,473 - INFO - Weekend sales for stores open all weekdays visualized.
+2024-09-19 20:41:05,478 - INFO - Analyzing how assortment type affects sales...
+2024-09-19 20:41:07,890 - INFO - Effect of assortment type on sales visualized.
+2024-09-19 20:41:07,906 - INFO - Analyzing how competitor distance affects sales...
+2024-09-19 20:41:12,156 - INFO - Effect of competitor distance on sales visualized.
