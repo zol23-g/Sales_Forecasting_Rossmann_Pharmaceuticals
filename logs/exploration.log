@@ -41,3 +41,75 @@ b          9409.434791  11109.739497       18.070211
 2024-09-19 20:41:07,890 - INFO - Effect of assortment type on sales visualized.
 2024-09-19 20:41:07,906 - INFO - Analyzing how competitor distance affects sales...
 2024-09-19 20:41:12,156 - INFO - Effect of competitor distance on sales visualized.
+2024-09-19 20:52:29,899 - INFO - Analyzing how assortment type affects promo effectiveness...
+2024-09-19 20:52:29,989 - INFO - Displaying promo effectiveness based on assortment type:
+2024-09-19 20:52:29,989 - INFO - Promo                 0            1  Sales_Increase
+Assortment                                          
+a           4113.478647  7699.279197       87.171974
+b           8316.314158  8938.803853        7.485163
+c           4670.936606  8306.944249       77.843224
+2024-09-19 20:52:30,109 - INFO - Promo effectiveness by assortment type visualized.
+2024-09-19 20:54:17,040 - INFO - Analyzing how competitor distance affects promo effectiveness...
+2024-09-19 20:54:17,125 - INFO - Displaying promo effectiveness based on competitor distance:
+2024-09-19 20:54:17,125 - INFO - Promo                              0            1  Sales_Increase
+CompetitionDistance_Bin                                          
+<2km                     4621.127522  8253.781773       78.609695
+2-5km                    4205.985394  7676.354284       82.510246
+5-10km                   4260.471198  7687.137637       80.429283
+>10km                    4251.330254  8009.907290       88.409434
+2024-09-19 20:54:17,208 - INFO - Promo effectiveness by competitor distance visualized.
+2024-09-19 20:57:25,395 - INFO - Analyzing customer attraction vs retention during promos...
+2024-09-19 20:57:25,483 - INFO - Displaying top 10 stores with the highest customer increase due to promos:
+2024-09-19 20:57:25,483 - INFO - Promo           0            1  Customer_Increase
+Store                                            
+198    178.955326   445.938889         149.190062
+607    228.893471   529.419444         131.295127
+575    279.000000   613.370629         119.846104
+271    452.065292   984.858333         117.857542
+635    342.422680   739.302778         115.903566
+1108   339.116838   730.672222         115.463268
+898    409.975945   881.480556         115.007872
+96     313.611684   669.005556         113.322905
+963    589.347079  1246.194444         111.453401
+693    287.859107   607.491667         111.037849
+2024-09-19 20:57:25,503 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:57:25,511 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-19 20:57:29,440 - INFO - Customer attraction vs retention during promos analyzed.
+2024-09-19 20:58:05,777 - INFO - Analyzing customer attraction vs retention during promos...
+2024-09-19 20:58:05,873 - INFO - Displaying top 10 stores with the highest customer increase due to promos:
+2024-09-19 20:58:05,874 - INFO - Promo                0            1  Customer_Increase
+StoreType                                             
+a           528.479780   870.600207          64.736711
+d           411.065704   648.122890          57.668928
+c           558.208497   859.572372          53.987690
+b          1909.851288  2113.734039          10.675321
+2024-09-19 20:58:05,972 - INFO - Customer attraction vs retention during promos analyzed.
+2024-09-19 20:58:42,579 - INFO - Analyzing customer attraction vs retention during promos...
+2024-09-19 20:58:42,656 - INFO - Displaying top 10 stores with the highest customer increase due to promos:
+2024-09-19 20:58:42,656 - INFO - Promo           0            1  Customer_Increase
+Store                                            
+198    178.955326   445.938889         149.190062
+607    228.893471   529.419444         131.295127
+575    279.000000   613.370629         119.846104
+271    452.065292   984.858333         117.857542
+635    342.422680   739.302778         115.903566
+1108   339.116838   730.672222         115.463268
+898    409.975945   881.480556         115.007872
+96     313.611684   669.005556         113.322905
+963    589.347079  1246.194444         111.453401
+693    287.859107   607.491667         111.037849
+2024-09-20 14:25:36,690 - INFO - Datasets loaded successfully.
+2024-09-20 14:25:37,130 - INFO - Datasets loaded successfully.
+2024-09-20 14:25:37,138 - INFO - Datasets loaded successfully.
+2024-09-20 14:25:37,592 - INFO - Checking the distribution of promotions in training and test sets...
+2024-09-20 14:25:45,646 - INFO - Distribution of promotions visualized.
+2024-09-20 14:25:45,655 - INFO - Analyzing sales behavior around holidays...
+2024-09-20 14:25:46,720 - INFO - Sales behavior around holidays visualized.
+2024-09-20 14:25:46,747 - INFO - Exploring seasonal purchasing behavior (e.g., Christmas)...
+2024-09-20 14:25:47,339 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:25:47,696 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 14:25:48,043 - INFO - Seasonal purchasing behavior visualized.
+2024-09-20 14:25:48,053 - INFO - Analyzing the correlation between sales and number of customers...
+2024-09-20 14:25:48,183 - INFO - Correlation matrix between sales and customers:               Sales  Customers
+Sales      1.000000   0.894711
+Customers  0.894711   1.000000
