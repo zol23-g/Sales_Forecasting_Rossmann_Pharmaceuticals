@@ -64,3 +64,22 @@
 2024-09-21 12:10:42,352 - INFO - Datasets loaded successfully.
 2024-09-21 12:10:42,852 - INFO - Datasets loaded successfully.
 2024-09-21 12:10:42,875 - INFO - Datasets loaded successfully.
+2024-09-23 14:35:04,926 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/test.csv'
+2024-09-23 14:35:04,927 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/train.csv'
+2024-09-23 14:35:04,927 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/store.csv'
+2024-09-23 14:37:01,181 - INFO - Datasets loaded successfully.
+2024-09-23 14:37:01,651 - INFO - Datasets loaded successfully.
+2024-09-23 14:37:01,656 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,073 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,509 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,511 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,087 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,650 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,656 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:53,901 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:54,467 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:54,475 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:36,785 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:37,537 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:37,568 - INFO - Datasets loaded successfully.
+2024-09-23 18:03:04,823 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
