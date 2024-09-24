@@ -4,5 +4,8 @@ venv/
 # Ignore VS Code settings directory
 .vscode/
 data/
+notebooks/lstm_sales_model.h5
+notebooks/model_23-09-2024-16-31-05-472733.pkl
+notebooks/model_23-09-2024-16-49-29-542195.pkl
 
 

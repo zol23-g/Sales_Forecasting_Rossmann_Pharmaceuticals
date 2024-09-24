@@ -64,3 +64,204 @@
 2024-09-21 12:10:42,352 - INFO - Datasets loaded successfully.
 2024-09-21 12:10:42,852 - INFO - Datasets loaded successfully.
 2024-09-21 12:10:42,875 - INFO - Datasets loaded successfully.
+2024-09-23 14:35:04,926 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/test.csv'
+2024-09-23 14:35:04,927 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/train.csv'
+2024-09-23 14:35:04,927 - INFO - Error loading data: [Errno 2] No such file or directory: '../data/store.csv'
+2024-09-23 14:37:01,181 - INFO - Datasets loaded successfully.
+2024-09-23 14:37:01,651 - INFO - Datasets loaded successfully.
+2024-09-23 14:37:01,656 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,073 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,509 - INFO - Datasets loaded successfully.
+2024-09-23 14:38:32,511 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,087 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,650 - INFO - Datasets loaded successfully.
+2024-09-23 16:13:49,656 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:53,901 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:54,467 - INFO - Datasets loaded successfully.
+2024-09-23 16:35:54,475 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:36,785 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:37,537 - INFO - Datasets loaded successfully.
+2024-09-23 17:24:37,568 - INFO - Datasets loaded successfully.
+2024-09-23 18:03:04,823 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-09-23 20:58:52,153 - INFO - Datasets loaded successfully.
+2024-09-23 20:58:52,844 - INFO - Datasets loaded successfully.
+2024-09-23 20:58:52,977 - INFO - Datasets loaded successfully.
+2024-09-24 08:57:55,250 - INFO - Datasets loaded successfully.
+2024-09-24 08:57:55,825 - INFO - Datasets loaded successfully.
+2024-09-24 08:57:55,835 - INFO - Datasets loaded successfully.
+2024-09-24 08:57:56,175 - INFO -          Store  DayOfWeek       Date  Sales  Customers  Open  Promo  \
+0            1          5 2015-07-31   5263        555     1      1   
+1            2          5 2015-07-31   6064        625     1      1   
+2            3          5 2015-07-31   8314        821     1      1   
+3            4          5 2015-07-31  13995       1498     1      1   
+4            5          5 2015-07-31   4822        559     1      1   
+...        ...        ...        ...    ...        ...   ...    ...   
+1017204   1111          2 2013-01-01      0          0     0      0   
+1017205   1112          2 2013-01-01      0          0     0      0   
+1017206   1113          2 2013-01-01      0          0     0      0   
+1017207   1114          2 2013-01-01      0          0     0      0   
+1017208   1115          2 2013-01-01      0          0     0      0   
+
+        StateHoliday  SchoolHoliday StoreType Assortment  CompetitionDistance  \
+0                  0              1         c          a               1270.0   
+1                  0              1         a          a                570.0   
+2                  0              1         a          a              14130.0   
+3                  0              1         c          c                620.0   
+4                  0              1         a          a              29910.0   
+...              ...            ...       ...        ...                  ...   
+1017204            a              1         a          a               1900.0   
+1017205            a              1         c          c               1880.0   
+1017206            a              1         a          c               9260.0   
+1017207            a              1         a          c                870.0   
+1017208            a              1         d          c               5350.0   
+
+         CompetitionOpenSinceMonth  CompetitionOpenSinceYear  Promo2  \
+0                              9.0                    2008.0       0   
+1                             11.0                    2007.0       1   
+2                             12.0                    2006.0       1   
+3                              9.0                    2009.0       0   
+4                              4.0                    2015.0       0   
+...                            ...                       ...     ...   
+1017204                        6.0                    2014.0       1   
+1017205                        4.0                    2006.0       0   
+1017206                        NaN                       NaN       0   
+1017207                        NaN                       NaN       0   
+1017208                        NaN                       NaN       1   
+
+         Promo2SinceWeek  Promo2SinceYear     PromoInterval  
+0                    NaN              NaN               NaN  
+1                   13.0           2010.0   Jan,Apr,Jul,Oct  
+2                   14.0           2011.0   Jan,Apr,Jul,Oct  
+3                    NaN              NaN               NaN  
+4                    NaN              NaN               NaN  
+...                  ...              ...               ...  
+1017204             31.0           2013.0   Jan,Apr,Jul,Oct  
+1017205              NaN              NaN               NaN  
+1017206              NaN              NaN               NaN  
+1017207              NaN              NaN               NaN  
+1017208             22.0           2012.0  Mar,Jun,Sept,Dec  
+
+[1017209 rows x 18 columns]
+2024-09-24 08:57:56,190 - INFO -           Id  Store  DayOfWeek       Date  Open  Promo StateHoliday  \
+0          1      1          4 2015-09-17   1.0      1            0   
+1          2      3          4 2015-09-17   1.0      1            0   
+2          3      7          4 2015-09-17   1.0      1            0   
+3          4      8          4 2015-09-17   1.0      1            0   
+4          5      9          4 2015-09-17   1.0      1            0   
+...      ...    ...        ...        ...   ...    ...          ...   
+41083  41084   1111          6 2015-08-01   1.0      0            0   
+41084  41085   1112          6 2015-08-01   1.0      0            0   
+41085  41086   1113          6 2015-08-01   1.0      0            0   
+41086  41087   1114          6 2015-08-01   1.0      0            0   
+41087  41088   1115          6 2015-08-01   1.0      0            0   
+
+       SchoolHoliday StoreType Assortment  CompetitionDistance  \
+0                  0         c          a               1270.0   
+1                  0         a          a              14130.0   
+2                  0         a          c              24000.0   
+3                  0         a          a               7520.0   
+4                  0         a          c               2030.0   
+...              ...       ...        ...                  ...   
+41083              0         a          a               1900.0   
+41084              0         c          c               1880.0   
+41085              0         a          c               9260.0   
+41086              0         a          c                870.0   
+41087              1         d          c               5350.0   
+
+       CompetitionOpenSinceMonth  CompetitionOpenSinceYear  Promo2  \
+0                            9.0                    2008.0       0   
+1                           12.0                    2006.0       1   
+2                            4.0                    2013.0       0   
+3                           10.0                    2014.0       0   
+4                            8.0                    2000.0       0   
+...                          ...                       ...     ...   
+41083                        6.0                    2014.0       1   
+41084                        4.0                    2006.0       0   
+41085                        NaN                       NaN       0   
+41086                        NaN                       NaN       0   
+41087                        NaN                       NaN       1   
+
+       Promo2SinceWeek  Promo2SinceYear     PromoInterval  
+0                  NaN              NaN               NaN  
+1                 14.0           2011.0   Jan,Apr,Jul,Oct  
+2                  NaN              NaN               NaN  
+3                  NaN              NaN               NaN  
+4                  NaN              NaN               NaN  
+...                ...              ...               ...  
+41083             31.0           2013.0   Jan,Apr,Jul,Oct  
+41084              NaN              NaN               NaN  
+41085              NaN              NaN               NaN  
+41086              NaN              NaN               NaN  
+41087             22.0           2012.0  Mar,Jun,Sept,Dec  
+
+[41088 rows x 17 columns]
+2024-09-24 08:57:56,376 - INFO - Index(['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo',
+       'StateHoliday', 'SchoolHoliday', 'StoreType', 'Assortment',
+       'CompetitionDistance', 'CompetitionOpenSinceMonth',
+       'CompetitionOpenSinceYear', 'Promo2', 'Promo2SinceWeek',
+       'Promo2SinceYear', 'PromoInterval', 'Day', 'Weekday', 'IsWeekend',
+       'Month', 'IsBeginningOfMonth', 'IsMidMonth', 'IsEndOfMonth', 'Year'],
+      dtype='object')
+2024-09-24 08:57:56,459 - INFO - ['0' 'a' 'b' 'c']
+2024-09-24 08:57:57,067 - INFO -           Store  DayOfWeek  Promo StateHoliday StoreType Assortment   Day  \
+0           1.0          5      1            0         c          a  31.0   
+1           2.0          5      1            0         a          a  31.0   
+2           3.0          5      1            0         a          a  31.0   
+3           4.0          5      1            0         c          c  31.0   
+4           5.0          5      1            0         a          a  31.0   
+...         ...        ...    ...          ...       ...        ...   ...   
+1017204  1111.0          2      0            a         a          a   1.0   
+1017205  1112.0          2      0            a         c          c   1.0   
+1017206  1113.0          2      0            a         a          c   1.0   
+1017207  1114.0          2      0            a         a          c   1.0   
+1017208  1115.0          2      0            a         d          c   1.0   
+
+         Month    Year  
+0          7.0  2015.0  
+1          7.0  2015.0  
+2          7.0  2015.0  
+3          7.0  2015.0  
+4          7.0  2015.0  
+...        ...     ...  
+1017204    1.0  2013.0  
+1017205    1.0  2013.0  
+1017206    1.0  2013.0  
+1017207    1.0  2013.0  
+1017208    1.0  2013.0  
+
+[1017209 rows x 9 columns]
+2024-09-24 08:57:57,067 - INFO -         Store  DayOfWeek  Promo StateHoliday StoreType Assortment   Day  \
+0         1.0          4      1            0         c          a  17.0   
+1         3.0          4      1            0         a          a  17.0   
+2         7.0          4      1            0         a          c  17.0   
+3         8.0          4      1            0         a          a  17.0   
+4         9.0          4      1            0         a          c  17.0   
+...       ...        ...    ...          ...       ...        ...   ...   
+41083  1111.0          6      0            0         a          a   1.0   
+41084  1112.0          6      0            0         c          c   1.0   
+41085  1113.0          6      0            0         a          c   1.0   
+41086  1114.0          6      0            0         a          c   1.0   
+41087  1115.0          6      0            0         d          c   1.0   
+
+       Month    Year  
+0        9.0  2015.0  
+1        9.0  2015.0  
+2        9.0  2015.0  
+3        9.0  2015.0  
+4        9.0  2015.0  
+...      ...     ...  
+41083    8.0  2015.0  
+41084    8.0  2015.0  
+41085    8.0  2015.0  
+41086    8.0  2015.0  
+41087    8.0  2015.0  
+
+[41088 rows x 9 columns]
+2024-09-24 08:57:57,313 - INFO - ['DayOfWeek_1', 'DayOfWeek_2', 'DayOfWeek_3', 'DayOfWeek_4', 'DayOfWeek_5', 'DayOfWeek_6', 'DayOfWeek_7', 'Promo_0', 'Promo_1', 'StateHoliday_0', 'StateHoliday_a', 'StateHoliday_b', 'StateHoliday_c', 'StoreType_a', 'StoreType_b', 'StoreType_c', 'StoreType_d', 'Assortment_a', 'Assortment_b', 'Assortment_c']
+2024-09-24 08:57:58,198 - INFO - Index(['Store', 'Day', 'Month', 'Year', 'DayOfWeek_1', 'DayOfWeek_2',
+       'DayOfWeek_3', 'DayOfWeek_4', 'DayOfWeek_5', 'DayOfWeek_6',
+       'DayOfWeek_7', 'Promo_0', 'Promo_1', 'StateHoliday_0', 'StateHoliday_a',
+       'StateHoliday_b', 'StateHoliday_c', 'StoreType_a', 'StoreType_b',
+       'StoreType_c', 'StoreType_d', 'Assortment_a', 'Assortment_b',
+       'Assortment_c'],
+      dtype='object')
