@@ -83,3 +83,6 @@
 2024-09-23 17:24:37,537 - INFO - Datasets loaded successfully.
 2024-09-23 17:24:37,568 - INFO - Datasets loaded successfully.
 2024-09-23 18:03:04,823 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2024-09-23 20:58:52,153 - INFO - Datasets loaded successfully.
+2024-09-23 20:58:52,844 - INFO - Datasets loaded successfully.
+2024-09-23 20:58:52,977 - INFO - Datasets loaded successfully.
